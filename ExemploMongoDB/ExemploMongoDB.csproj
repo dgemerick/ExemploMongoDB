@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExemploMongoDB.AcessandoMongoDB</StartupObject>
+    <StartupObject>ExemploMongoDB.ManipulandoClasses</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DnsClient, Version=1.6.0.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
@@ -83,6 +83,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcessandoMongoDB.cs" />
+    <Compile Include="Livro.cs" />
+    <Compile Include="ManipulandoClasses.cs" />
     <Compile Include="ManipulandoDocumentos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramAssincrono.cs" />
